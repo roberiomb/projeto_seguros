@@ -54,9 +54,10 @@
   align-items: center;
   border: solid;
   padding: 14px 24px;
-  border-radius: 15px;
+  border-radius: 25px;
   justify-content: center;
   height: 25px;
+
 }
 
 .botao {
@@ -123,3 +124,23 @@
   background-color: #001342;
 }
 
+@media (width <= 900px) {
+  .header {
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 100%;
+   gap: 25px;
+   font-size: 12px;
+white-space: nowrap;
+}
+.botao {
+  width: 150;
+
+}
+}
+
+@media (width <= 900px) {
+  .header-menu::before {
+    display: none;
+  }
+}
