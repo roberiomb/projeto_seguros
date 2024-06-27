@@ -8,7 +8,7 @@
   height: 100px;
   border-radius: 50px;
   box-shadow: 0px 1px 6px 0px rgb(142, 142, 142);
-  border-bottom:  solid 2px #E26C1B;
+  border-bottom: solid 2px #e26c1b;
 }
 
 .header {
@@ -21,7 +21,6 @@
   margin-left: 1.3rem;
   align-items: center;
   color: #001857;
-  
 }
 
 .header-menu {
@@ -39,7 +38,6 @@
   height: 30px;
   background-color: rgb(197, 192, 192);
   border-radius: 5px;
-
 }
 
 .setinha_baixo {
@@ -59,8 +57,6 @@
   font-family: "Roboto", Courier, monospace;
   font-weight: 300;
   font-size: 1.2rem;
- 
-
 }
 
 .botao1 {
@@ -74,18 +70,62 @@
   width: 120px;
 }
 
+.cote {
+  width: 15px;
+}
+
 .botao2 {
   display: flex;
-  background-color: #E26C1B;
+  background-color: #e26c1b;
   padding: 15px 20px;
   align-items: center;
   border-radius: 50px;
   gap: 5px;
   height: 25px;
   width: 120px;
-  
 }
 
 @media (width <= 800px) {
+  .seguro {
+    display: none;
+  }
+  
+  .header {
+    margin-left: 5px;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    align-items: center;
+    color: #001857;
+  }
 
+  .header-menu {
+    margin-left: 2px;
+    gap: 10px;
+  }
+
+  .botao1 {
+    display: flex;
+    background-color: #001857;
+    padding: 15px 20px;
+    align-items: center;
+    border-radius: 50px;
+    gap: 5px;
+    height: 13px;
+    width: 70px;
+  }
+
+  .botao2 {
+    display: flex;
+    background-color: #e26c1b;
+    padding: 15px 20px;
+    align-items: center;
+    border-radius: 50px;
+    gap: 5px;
+    height: 13px;
+    width: 70px;
+  }
+
+  .botao {
+    font-size: 0.8rem;
+  }
 }
